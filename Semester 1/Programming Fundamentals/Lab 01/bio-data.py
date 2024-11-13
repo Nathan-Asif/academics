@@ -1,0 +1,16 @@
+# Author: Nathan Asif | 2024F-BSE-278
+# Print bio-data using print() and escape sequences "\t(tab), \n(new line) for better readability"
+print("---- Bio-Data ----\n")
+print("Name:\t\t\tNathan Asif")
+print("Profession:\t\tFull Stack Developer")
+print("Registration Number:\t2024F-BSE-278")
+print("Department:\t\tSoftware Engineering")
+print("Semester:\t\t1st\n")
+print("Skills:")
+print("\t- Frontend Development")
+print("\t- Backend Development")
+print("\t- UI/UX")
+print("\t- PHP")
+print("\t- JavaScript")
+print("\t- Python")
+print("\t- SQL\n")

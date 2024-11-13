@@ -1,0 +1,20 @@
+# Author: Nathan Asif | 2024F-BSE-278
+# Write a program to print a student’s bio data having his/her Date of birth, Roll no, Section, Percentage and grade of matriculation and Intermediate. All the fields should be entered from the console at run time.
+
+studentName = input("Student Name: \t\t\t\t")
+studentRollNo = input("Student Roll No: \t\t\t")
+studentSection = input("Student Section: \t\t\t")
+studentDob = input("Student Date of Birth: \t\t\t")
+studentMatricPercentage = eval(input("Student Matric Percentage: \t\t"))
+studentMatricGrade = input("Student Matric Grade: \t\t\t")
+studentInterPercentage = eval(input("Student Intermediate Percentage: \t"))
+studentInterGrade = input("Student Intermediate Grade: \t\t")
+print("\n-----Student Bio Data-----")
+print(f"Name: \t\t\t\t{studentName}")
+print(f"Roll No: \t\t\t{studentRollNo}")
+print(f"Section: \t\t\t{studentSection}")
+print(f"Date of Birth: \t\t\t{studentDob}")
+print(f"Matric Percentage: \t\t{studentMatricPercentage}%")
+print(f"Matric Grade: \t\t\t{studentMatricGrade}")
+print(f"Intermediate Percentage: \t{studentInterPercentage}%")
+print(f"Intermediate Grade: \t\t{studentInterGrade}")
